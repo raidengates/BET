@@ -9,7 +9,7 @@ services:
         image: mcr.microsoft.com/mssql/server:2019-GA-ubuntu-16.04
         environment:
           - ACCEPT_EULA=Y
-          - SA_PASSWORD=Raiden@2018
+          - SA_PASSWORD=Pass@123
         ports:
           - 1433:1433
         networks:
